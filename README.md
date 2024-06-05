@@ -8,7 +8,7 @@ Sebelum menginstal dan menjalankan proyek ini, pastikan Anda telah menginstal pe
 
 - [Git](https://git-scm.com/)
 - [Composer](https://getcomposer.org/)
-- [PHP](https://www.php.net/) >= 7.4
+- [PHP](https://www.php.net/) >=8.1
 - [Node.js](https://nodejs.org/) dan NPM (opsional, jika menggunakan Laravel Mix)
 
 ## Instalasi
