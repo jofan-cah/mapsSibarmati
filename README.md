@@ -30,7 +30,7 @@ Berikut adalah langkah-langkah untuk mengkloning repository dan menginstal depen
 
 3. **Instal Dependensi NPM (Opsional)**
 
-    Jika proyek menggunakan Laravel Mix untuk mengelola aset frontend, instal dependensi NPM:
+    Jika proyek menggunakan Laravel Vite untuk mengelola aset frontend, instal dependensi NPM:
 
     ```sh
     npm install
@@ -63,6 +63,9 @@ Berikut adalah langkah-langkah untuk mengkloning repository dan menginstal depen
 
     ```sh
     php artisan key:generate
+    composer require phu1237/laravel-tailwind-auth --dev
+    php artisan auth:install
+    npm install && npm run dev
     ```
 
 7. **Migrasi Database**
